@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
+li{
+    display: inline;
+    float: right;
+    padding-right: 12px;
+    
+    
+}
+li a{
+    display: block;
+    color: white;;
+    padding: 8px 8px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.header{
+    background-image: linear-gradient(to right bottom, #051937, #3a225a, #7d1968, #bd005b, #eb1235);
+    z-index: 0;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 1px; 
+    margin-top:30px;
+    height:604px;
+    font-family: 'Sofia';
+    text-shadow: 3px 3px black;
+}
+
+
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 0% 20% 0% 20%;
+    margin-top: 20px;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+.main{
+    margin-bottom: 50px;
+}
+
+.box {
+  float: left;
+  width: 40%;
+  padding: 10px;
+    padding-left: 50px;
+  height: 130px;
+    border: 1px solid #bbb;
+    border-left: 0px;
+    border-top: 0px;
+    border-radius: 20% 0 20% 0;
+    margin: 4px;
+    margin-left: 77px;
+    box-shadow: 4px 4px grey;
+    
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#icon{
+    float: left;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    color: indianred;
+    display: inline;
+    margin-top: 5px;
+    padding: 5px;
+  
+  vertical-align: baseline;
+    z-index: 1;
+ }
+.details h2{
+    font-family: 'Allan';
+    padding-left: 45px;
+    z-index: -1;
+}
+.details p{
+    font-family: 'Allan';
+    padding-left: 45px;
+}
+
+/* --------Social Links ***************/
+#lab_social_icon_footer {
+  padding: 100px 0;
+  background: url('2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+   
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+
