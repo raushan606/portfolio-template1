@@ -43,6 +43,7 @@ a:hover{
     height:604px;
     font-family: 'Sofia';
     text-shadow: 3px 3px black;
+    overflow: hidden;
 }
 
 
@@ -78,7 +79,7 @@ img{
     margin: 4px;
     margin-left: 77px;
     box-shadow: 4px 4px grey;
-    
+    overflow: hidden;
 }
 
 .clearfix::after {
@@ -123,5 +124,6 @@ img{
 #lab_social_icon_footer a {
   color: #333;
 }
+
 
 
