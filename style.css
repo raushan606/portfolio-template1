@@ -127,3 +127,11 @@ img{
 
 
 
+@media (max-width: 600px){
+    .box{
+        width: 50%;
+        height: auto;
+        display: block;
+    }
+}
+
