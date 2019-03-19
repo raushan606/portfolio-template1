@@ -129,9 +129,36 @@ img{
 
 @media (max-width: 600px){
     .box{
-        width: 50%;
+        width: 90%;
         height: auto;
         display: block;
+        padding: 0px;
+    
+  height: 150px;
+margin-left: 10px;
+    }
+    .header{
+        font-size: 20px;
+        height: auto;
+        position: relative;
+        top: 100px;
+    }
+    img{
+        width: 100px;
+    height: 150px;
+    }
+    li{
+        display: block;
+        float: none;
+        }
+    
+    #c2{
+        position: relative;
+        top: 100px;
+    }
+     #c4{
+        position: relative;
+        top: 100px;
     }
 }
 
